@@ -24,13 +24,13 @@ export default function Header() {
             <Image
               src="/logo.jpg"
               alt="Elsdiq Company Logo"
-              width={32}
-              height={32}
+              width={40}
+              height={40}
               className="rounded-full"
             />
-            <span className="text-xl font-bold text-gray-900">
+            <div className="text-xl font-bold text-gray-900 !mr-[40px]">
               Elsdiq Company
-            </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
