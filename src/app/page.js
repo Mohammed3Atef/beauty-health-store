@@ -51,7 +51,7 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <div className="hidden lg:block">
+            <div className="block">
               <div className="relative">
                 <div className="absolute inset-0 bg-white bg-opacity-10 rounded-2xl"></div>
                 <Image
@@ -59,7 +59,7 @@ export default function HomePage() {
                   alt="Elsdiq Company Cover"
                   width={600}
                   height={400}
-                  className="rounded-2xl"
+                  className="rounded-2xl w-full h-auto"
                 />
               </div>
             </div>
