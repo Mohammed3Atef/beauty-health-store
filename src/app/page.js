@@ -25,7 +25,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Beauty & Health
+                Elsdiq Company
                 <span className="block text-2xl md:text-3xl font-normal mt-2">
                   Your Trusted Source
                 </span>
@@ -33,6 +33,7 @@ export default function HomePage() {
               <p className="text-xl mb-8 text-primary-100">
                 Discover premium cosmetics, skincare, and medical supplies. Over
                 2000 products with fast shipping and excellent customer service.
+                Located in Kafr Eldawar, Shar3 Elgish, Bgwar Bon 3ez.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -54,8 +55,8 @@ export default function HomePage() {
               <div className="relative">
                 <div className="absolute inset-0 bg-white bg-opacity-10 rounded-2xl"></div>
                 <Image
-                  src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&h=400&fit=crop"
-                  alt="Beauty Products"
+                  src="/cover.jpg"
+                  alt="Elsdiq Company Cover"
                   width={600}
                   height={400}
                   className="rounded-2xl"
@@ -151,7 +152,8 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold mb-4">Ready to Shop?</h2>
           <p className="text-xl mb-8 text-primary-100">
             Join thousands of satisfied customers and discover your perfect
-            products today.
+            products today. Visit us at Kafr Eldawar, Shar3 Elgish, Bgwar Bon
+            3ez.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

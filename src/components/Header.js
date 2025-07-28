@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Search, ShoppingCart, Heart, Menu, X } from "lucide-react";
 import { useStore } from "@/lib/store";
 import { categories } from "@/data/categories";
@@ -20,11 +21,15 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">B</span>
-            </div>
+            <Image
+              src="/logo.jpg"
+              alt="Elsdiq Company Logo"
+              width={32}
+              height={32}
+              className="rounded-full"
+            />
             <span className="text-xl font-bold text-gray-900">
-              Beauty & Health
+              Elsdiq Company
             </span>
           </Link>
 

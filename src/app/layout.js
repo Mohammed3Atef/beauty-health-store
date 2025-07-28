@@ -7,11 +7,11 @@ import CartSidebar from "@/components/CartSidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Beauty & Health Store - Premium Cosmetics & Medical Supplies",
+  title: "Elsdiq Company - Premium Cosmetics & Medical Supplies",
   description:
-    "Your one-stop shop for premium cosmetics, skincare, and medical supplies. Over 2000 products with fast shipping and excellent customer service.",
+    "Elsdiq Company - Your trusted source for premium cosmetics, skincare, and medical supplies. Located in Kafr Eldawar, Shar3 Elgish, Bgwar Bon 3ez.",
   keywords:
-    "cosmetics, skincare, makeup, medical supplies, beauty products, health care",
+    "Elsdiq Company, cosmetics, skincare, makeup, medical supplies, beauty products, health care, Kafr Eldawar",
 };
 
 export default function RootLayout({ children }) {

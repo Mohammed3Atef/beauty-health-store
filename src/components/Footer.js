@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Facebook,
   Twitter,
@@ -17,10 +18,14 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">B</span>
-              </div>
-              <span className="text-xl font-bold">Beauty & Health</span>
+              <Image
+                src="/logo.jpg"
+                alt="Elsdiq Company Logo"
+                width={32}
+                height={32}
+                className="rounded-full"
+              />
+              <span className="text-xl font-bold">Elsdiq Company</span>
             </div>
             <p className="text-gray-300 text-sm">
               Your trusted source for premium cosmetics, skincare, and medical
@@ -155,18 +160,18 @@ export default function Footer() {
               <div className="flex items-center space-x-2">
                 <MapPin className="w-4 h-4 text-gray-400" />
                 <span className="text-gray-300">
-                  123 Beauty Street
+                  Kafr Eldawar, Shar3 Elgish
                   <br />
-                  New York, NY 10001
+                  Bgwar Bon 3ez
                 </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-gray-400" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+20 (123) 456-7890</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-gray-400" />
-                <span className="text-gray-300">info@beautyhealth.com</span>
+                <span className="text-gray-300">info@elsdiqcompany.com</span>
               </div>
             </div>
           </div>
@@ -176,7 +181,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2024 Beauty & Health Store. All rights reserved.
+              © 2024 Elsdiq Company. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <Link
